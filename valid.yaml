@@ -1,3 +1,4 @@
+---
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
@@ -31,5 +32,3 @@ spec:
       params:
         - name: args
           value: ["."]
-
-
